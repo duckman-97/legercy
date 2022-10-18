@@ -22,7 +22,6 @@
 	</beans:bean>
 	
 	<context:component-scan base-package="org.zerock.controller" />
-	
-	
+	<resources mapping="/resources/**" location = "/resources/"/>	
 	
 </beans:beans>
