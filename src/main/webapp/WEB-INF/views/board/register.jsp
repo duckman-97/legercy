@@ -8,6 +8,12 @@
 
 <div class = "row">
 <div class = "col-lg-12">
+<h1 class = "page-header">Board Register</h1>
+</div>
+</div>
+
+<div class= "row">
+<div class = "col-lg-12">
 	<div class = "panel panel-default">
 	<div class = "panel-heading">Board Register</div>
 	<div class = "panel-body">
@@ -17,11 +23,27 @@
 	<input class = "form-control" name = "title">
 	
 	</div>
-	</form>
-	</div>
-	</div>
+	
+	
+	<div class = "form-group">
+	<label>Test area</label>
+	<textarea class = "form-control" row="3" name = 'content'></textarea>
+	
 </div>
 
 
+<div class = "form-group">
+<label>Writer</label><input class = "form-control" name='writer'>
+
 </div>
+<button type = "submit" class = "btn btn-default">SubMit Button</button>
+<button type= "reset" class = "btn btn-default">Rest Button</button>
+</form>
+
+</div>
+</div>
+</div>
+</div>
+
+<%@include file = "../includes/footer.jsp" %>
 
